@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercici01</title>
+</head>
+<body>
+    <header>
+        <h1>Formulario :)</h1>
+    </header>
+    <div>
+        <form method="post" action="exercici01.php">
+            <label for="fname">Primer Nombre
+                <input type="text" id="fname" name="fname"><br>
+            </label><br>
+            
+            <label for="lname">Apellidos
+                <input type="text" id="lname" name="lname"><br>
+            </label><br>
+            
+            <label for="gender">Género
+                <input list="genders" id="gender" name="gender"><br>
+                <datalist id="genders">
+                    <option value="Masculino">
+                    <option value="Femenino">
+                    <option value="Otros">
+                </datalist>
+            </label><br>
+            
+            <label for="email">Correo
+                <input type="email" id="email" name="email"><br>
+            </label><br>
+            
+            <label for="age">Edad
+                <input type="text" id="age" name="age"><br>
+            </label><br>    
+            
+            <label for="city">Ciudad
+                <input type="text" id="city" name="city"><br>
+            </label><br>
+            
+            <label for="hobbies">Aficiones
+                <textarea id="hobbies" name="hobbies"></textarea><br>
+            </label><br>            
+            
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+</body>
+</html>
